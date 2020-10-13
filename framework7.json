@@ -1,0 +1,26 @@
+{
+  "cwd": "/var/www/html/F7App",
+  "type": [
+    "pwa"
+  ],
+  "name": "TestBuild",
+  "framework": "vue",
+  "template": "blank",
+  "bundler": "webpack",
+  "cssPreProcessor": false,
+  "theming": {
+    "customColor": false,
+    "color": "#007aff",
+    "darkTheme": false,
+    "iconFonts": true,
+    "fillBars": false
+  },
+  "customBuild": false,
+  "webpack": {
+    "developmentSourceMap": true,
+    "productionSourceMap": true,
+    "hashAssets": false,
+    "preserveAssetsPaths": false,
+    "inlineAssets": true
+  }
+}
